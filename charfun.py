@@ -5,6 +5,7 @@ def esPalindromo(cadena):
     cadena = ''.join(c for c in cadena if c.isalnum()).lower()
 
     # Comparamos la cadena con su reverso
+    # Cambio para probar el commit con firma
     return cadena == cadena[::-1]
 
 def main():
